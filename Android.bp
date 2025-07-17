@@ -41,7 +41,6 @@ cc_defaults {
         "-DCONFIG_RUSAGE_THREAD",
         "-DCONFIG_SCHED_IDLE",
         "-DCONFIG_SETVBUF",
-        "-DCONFIG_SFAA",
         "-DCONFIG_SOCKLEN_T",
         "-DCONFIG_STRCASESTR",
         "-DCONFIG_STRLCAT",
@@ -71,6 +70,7 @@ cc_defaults {
             cflags: [
                 "-DBITS_PER_LONG=64",
                 "-DCONFIG_64BIT",
+                "-DCONFIG_SFAA",
             ],
         },
     },
