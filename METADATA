@@ -11,7 +11,7 @@ third_party {
   identifier {
     type: "Git"
     value: "https://git.kernel.org/pub/scm/linux/kernel/git/axboe/fio.git"
-    version: "bc8221a287f1bbe489430b9358fea52a7c765593"
+    version: "5af800ca20ea18193d2262a8191ae32e14d623f8"
     closest_version: "fio-3.38"
     primary_source: true
   }
